@@ -1,0 +1,126 @@
+#section3
+{
+    background: url(../img/servicios.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.servicios_container
+{
+    width: 45vw;
+    margin-right: 6vw;
+    margin-left: 50vw;
+    margin-top: 13vh;
+}
+#section3_title
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+}
+
+#servicios
+{
+    background: rgba(255,255,255,0.35);
+    border-radius: 10px;
+    border: 0.1vw solid;
+    border-color: rgb(14, 58, 92);
+}
+ 
+.servicios_item
+{
+    background: rgba(255,255,255,0.45);
+    padding: auto;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 0.1vw solid;
+    border-color: rgb(14, 58, 92);
+    border-radius: 10px;
+    height: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .2s ease-in-out;
+    
+}
+
+.servicios_item:hover
+{
+    width: 90%;
+    transition: .4s ease-in-out;
+}
+
+
+
+.servicios_item p
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2vh;
+}
+
+span
+{
+    color: rgb(14, 58, 92);
+    font-size: 3vh;
+    vertical-align: middle;
+    padding: 0;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) 
+{
+    
+    .servicios_container
+    {
+
+    width: 95vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 13vh;
+    padding: 0;
+    }
+
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px)
+    and (max-width: 768px)
+
+{
+      .servicios_container
+    {
+
+    width: 95vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 13vh;
+    padding: 0;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 769px)
+    and (max-width: 980px) 
+{
+          .servicios_container
+    {
+
+    width: 75vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 13vh;
+    padding: 0;
+    }
+
+	
+}

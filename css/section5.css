@@ -1,0 +1,240 @@
+#section5
+{
+    background: url(../img/contacto.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+#section5_title
+{
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    width: 65vw;
+    border-radius: 20px;
+    border: 0;
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+}
+
+
+#contacto
+{
+    background: rgba(255,255,255,0.35);
+    width: 35vw;
+    height: auto;
+    margin-top: 6vh;
+    margin-left: auto;;
+    margin-right: 7vw;
+    border: 0.1vw solid;
+    border-color: rgb(14, 58, 92);
+    border-radius: 10px;
+}
+
+#map_container
+{
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+#contactmap
+{
+    background: rgba(255,255,255,0.35);
+    width: 35vw;
+    height: 62vh;
+    margin-top: 6vh;
+    margin-left: 7vw;
+    padding: 0;
+    border: 0.1vw solid;
+    border-color: rgb(14, 58, 92);
+    border-radius: 10px;
+}
+
+
+#contactmap h2
+{
+    position: relative;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3vh;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 5%;
+    padding: 0;
+}
+
+#contactmap h3
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 4%;
+    text-align: left;
+}
+
+#contactmap p
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2vh;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) 
+{
+
+#section5_title
+{
+    margin-top: 12vh;
+    width: 80vw;
+}
+    
+  #contactmap
+{
+   
+    width: 100vw;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#map_container
+{
+    margin-left: 0;
+    padding: 0;
+}
+    
+iframe
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+#contacto
+{
+    width: 100vw;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+    
+#fname, #lname, #email, #phone, #message
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px)
+    and (max-width: 768px)
+
+{
+
+     #contactmap
+{
+   
+    width: 95vw;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#map_container
+{
+    margin-left: 0;
+    padding: 0;
+}
+    
+iframe
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+#contacto
+{
+    width: 100vw;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+    
+#fname, #lname, #email, #phone, #message
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* Large desktop */
+@media (min-width: 769px)
+    and (max-width: 980px) 
+{
+    
+       #contactmap
+{
+   
+    width: 45vw;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#map_container
+{
+    margin-left: 0;
+    padding: 0;
+}
+    
+iframe
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+#contacto
+{
+    width: 45vw;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+    
+#fname, #lname, #email, #phone, #message
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+	
+}

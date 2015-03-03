@@ -1,0 +1,139 @@
+#section2
+{
+    background: url('../img/library%20(1).jpg') top center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+#section2_title
+{  
+    width: 65vw;    
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    border-radius: 20px;
+    border: 0;
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    padding: 0;
+}
+
+
+
+.thumbnail
+{
+    background: rgba(255,255,255,0.35);
+    position: relative;
+    border-radius: 25px;
+    margin-top: 11vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1vw solid;
+    border-color: rgb(14, 58, 92);
+    width: 22vw;
+    transition: top .4s ease-in-out;
+    top: 0px;
+}
+
+.thumbnail:hover
+{
+    transition: top .4s ease-in-out;
+    top: -40px;
+}
+
+img
+{
+    margin-top: 2vh;
+    height: 20vh;
+    width: 12;
+}
+
+.caption h3
+{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+    background: rgba(14, 58, 92,0.80);
+    border-radius: 10px;
+    color: white;
+}
+
+.caption p
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2vh;
+    margin-top: 2vh;
+    
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) 
+{
+    #section2_title
+    {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .thumbnail
+    {
+
+        border-radius: 25px;
+        margin-top: 11vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85vw;
+    }
+    
+  
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px)
+    and (max-width: 768px)
+
+{
+    .thumbnail
+    {
+
+        border-radius: 25px;
+        margin-top: 11vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85vw;
+    }
+
+}
+
+/* Large desktop */
+@media (min-width: 769px)
+    and (max-width: 980px) 
+{
+      .thumbnail
+    {
+
+        border-radius: 25px;
+        margin-top: 11vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40vw;
+    }
+    
+  
+
+	
+}

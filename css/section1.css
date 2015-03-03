@@ -1,0 +1,110 @@
+#section1
+{
+   
+    background: url(../img/sanJoseView.jpg) center top no-repeat;
+    background-size: cover;
+}
+
+#carousel-example-generic
+{
+    margin-top: 10vh;
+    width: 70vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.carousel-inner, .item
+{
+   	width: 70vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+#slide 
+{
+    width: 70vw;
+    height: 60vh;
+    border-radius: 10px;
+    
+
+}
+
+#slide1
+{
+    background: url(../img/Archivo%20Nacional.JPG) center top no-repeat;
+    background-size: 100vw 70vh;
+}
+
+#slide2
+{
+    background: url(../img/Corte-Suprema-de-Justicia.jpg) center top no-repeat;
+    background-size: 100vw 70vh;
+}
+
+#slide3
+
+{
+    background: url(../img/hammer.jpg) center top no-repeat;
+    background-size: 100vw 70vh;
+}
+
+#slide4
+{
+    background: url(../img/Tribunal_Supremo_Elec_2.JPG) center top no-repeat;
+    background-size: 100vw 70vh;
+}
+
+.carousel-indicators li
+{ 
+    visibility: hidden; 
+}
+
+.onepage-pagination li
+{
+    visibility: hidden;
+}
+
+.slide-text h1
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.slide-text
+{
+    position: absolute;
+    width: 70vw;
+    height: 9vh;
+    margin-bottom: 0;
+    margin-top: 51vh;
+    background: rgba(0,0,0,0.55);
+    margin-left: none;
+    margin-right: none;
+    
+}
+
+#inicioText
+{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+    border-radius: 15px;
+    border: none;
+    background: rgba(0,0,0,0.55);
+}
+
+#inicioText h1
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3vh;
+    color: white;
+}

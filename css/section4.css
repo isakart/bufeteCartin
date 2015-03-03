@@ -1,0 +1,111 @@
+#section4  
+{
+    background: url(../img/cotizacion.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.contizacion_container
+{
+    width: 45vw;
+    margin-left: 6vw;
+    margin-top: 15vh;
+}
+
+#section4_title
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+}
+
+#cotizacion
+{
+    background: rgba(255,255,255,0.35);
+    margin-left: 0;
+    border: 0.1vw solid;
+    border-color: rgb(14, 58, 92);
+    border-radius: 10px;
+}
+
+#fname, #lname, #email, #phone, #message
+{
+    background: rgba(255,255,255,0.60);
+    margin-top: 3%;
+    margin-left: -12%;
+    border-radius: 10px;
+    border: 0.1vw solid;
+    border-color: rgb(14, 58, 92);
+    color: black;
+}
+
+#submit
+{
+    background: rgba(0,0,0,0.45);
+
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) 
+{
+  #section4_title
+{
+    width: 95vw;
+    
+}
+    
+  .contizacion_container
+{
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10vh;
+}
+
+    #fname, #lname, #email, #phone, #message
+    {
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px)
+    and (max-width: 768px)
+
+{
+    
+    .contizacion_container
+{
+    width: 85vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 14vh;
+}
+}
+
+/* Large desktop */
+@media (min-width: 769px)
+    and (max-width: 980px) 
+{
+    
+   .contizacion_container
+{
+    width: 60vw;
+    margin-left: 6vw;
+    margin-top: 15vh;
+}
+
+	
+}
