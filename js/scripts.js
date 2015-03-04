@@ -37,7 +37,7 @@ $(document).ready(function(){
     
 //    Google Map
 var var_map;
-var var_location = new google.maps.LatLng(9.9492747, -84.0512574,15);
+var var_location = new google.maps.LatLng(9.951568, -84.053505);
 	
      function map_init() {		 	
 			
@@ -54,17 +54,16 @@ var var_location = new google.maps.LatLng(9.9492747, -84.0512574,15);
                 var_mapoptions);
       
           var contentString = 
-				'<div id="mapInfo" style="font-size: 8px;">'+
-				'<p style="font-size: 8px;"><strong>Bneinoaj Costa Rica</strong><br><br>'+
+				'<div id="mapInfo">'+
+				'<p style="font-size: 10px;"><strong>B. Cart&iacute;</strong><br><br>'+
 				'Guadalupe centro<br>' +
 				'San Jose<br>Costa Rica<br>'+
-				'Tel&eacute;fono: (+506) 8338 - 0084</p>'+
-				'<a href="https://www.youtube.com/user/OR7Noajidas" target="_blank">Visite nuestro canal de youtube</a> <br>'+
-              '<a href="https://www.facebook.com/Jabadnik?fref=ts" target="_blank">Visitenos en Facebook</a>'+
+				'Tel&eacute;fono: (+506) 2224 - 2096</p>'+				
 				'</div>';
  
           var var_infowindow = new google.maps.InfoWindow({
-            content: contentString
+            content: contentString,
+            maxWidth: 200
           });
           
           var var_marker = new google.maps.Marker({

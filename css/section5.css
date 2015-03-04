@@ -45,12 +45,11 @@
 
 }
 
-
 #contactmap
 {
     background: rgba(255,255,255,0.35);
     width: 35vw;
-    height: 62vh;
+    height: 52vh;
     margin-top: 6vh;
     margin-left: 7vw;
     padding: 0;
@@ -69,6 +68,7 @@
     text-align: center;
     vertical-align: middle;
     margin-top: 5%;
+    margin-bottom: 5%;
     padding: 0;
 }
 
@@ -78,8 +78,7 @@
     font-size: 2.5vh;
     font-weight: bold;
     margin-top: 1%;
-    margin-left: 4%;
-    text-align: left;
+    text-align: center;
 }
 
 #contactmap p
@@ -87,7 +86,12 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 2vh;
     margin-top: 2%;
-    margin-left: 2%;
+    text-align: center;
+}
+
+#telefonos, #direccion
+{
+	padding-left: 7%;
 }
 
 
@@ -118,7 +122,8 @@
 
 #map_container
 {
-    margin-left: 0;
+    padding-left: auto;
+    padding-right: auto;
     padding: 0;
 }
     
@@ -164,7 +169,8 @@ iframe
 
 #map_container
 {
-    margin-left: 0;
+    padding-left: auto;
+    padding-right: auto;
     padding: 0;
 }
     
